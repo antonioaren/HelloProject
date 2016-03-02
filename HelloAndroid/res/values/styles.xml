@@ -1,0 +1,36 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar"/>
+
+
+    <style name="GreenStyle" parent="DefaultStyle">
+        <item name="android:background">@drawable/custom_button_green</item>
+    </style>
+
+    <style name="RedStyle" parent="DefaultStyle">
+        <item name="android:background">@drawable/custom_button_red</item>
+    </style>
+
+
+    <style name="DefaultStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+
+    <style name="WhiteStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+</resources>
